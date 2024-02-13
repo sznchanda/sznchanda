@@ -6,7 +6,7 @@ class AboutMe:
         self.occupation = "Cyber Security Apprentice @ Alstom"
         self.education = "BASc(Hons) Digital Technologies @ YorkU"
         self.interets = {
-            "Security": [
+            "Cyber Security": [
                 "Threat Hunting",
                 "Penetration Testing",
                 "Incident Response",
