@@ -6,8 +6,13 @@
 class AboutMe:
     def __init__(self):
         self.name = "Steeve Nchanda"
+
         self.occupation = "Cyber Security Apprentice @ Alstom"
+
         self.education = "BASc(Hons) Digital Technologies @ YorkU"
+
+        self.certification = "CompTIA Security+"
+
         self.interets = {
             "Cyber Security": [
                 "Threat Hunting",
@@ -19,7 +24,24 @@ class AboutMe:
                 "Python",
                 "Java",
             ]
+            "Podcasts":[
+                "Cybersecurity Magazine Podcast",
+                "Cybersecurity Today",
+                "Hacker And The Fed",
+            ]
         }
+
+        self.skills = {
+            "Soft": [
+                "Lifelong Learner",
+                "Strong self-starter",
+                "Excellent communicator",
+            ]
+            "Technical": [
+                "Threat Detection",
+                "Malware Analysis",
+                "IT Security Policies & Procedures",
+            ]
     
     def say_hello(self, name: str):
         print(f"Hello, {name}!")
