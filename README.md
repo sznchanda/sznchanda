@@ -7,9 +7,15 @@ class AboutMe:
     def __init__(self):
         self.name = "Steeve Nchanda"
 
-        self.occupation = "Cyber Security Apprentice @ Alstom"
+        self.occupation = {
+            "Cyber Security Apprentice @ Alstom"
+            "Former mathematics teacher @ MACSB"
+}
 
-        self.education = "BASc(Hons) Digital Technologies @ YorkU"
+        self.education = {
+            "B.A.Sc.(Hons) Digital Technologies @ YorkU" : Current
+            "B.Sc. Mathematics & Statistics @ UY1" : Graduated in 2020
+}
 
         self.certification = "CompTIA Security+"
 
@@ -41,6 +47,7 @@ class AboutMe:
                 "Threat Detection",
                 "Malware Analysis",
                 "IT Security Policies & Procedures",
+                "Python & Java",
             ]
     
     def say_hello(self, name: str):
