@@ -25,7 +25,12 @@ class AboutMe:
                 "Penetration Testing",
                 "Incident Response",
                 "Cloud Security",
-            ],
+            ]
+            "Cloud Engineering": [
+                "AWS",
+                "Azure",
+                "GCP",
+            ]
             "Programming": [
                 "Python",
                 "Java",
