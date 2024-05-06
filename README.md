@@ -10,12 +10,12 @@ class AboutMe:
         self.occupation = {
             "Cyber Security Apprentice @ Alstom"
             "Former mathematics teacher @ MACSB"
-}
+        }
 
         self.education = {
             "B.A.Sc.(Hons) Digital Technologies @ YorkU" : Current
             "B.Sc. Mathematics & Statistics @ UY1" : Graduated in 2020
-}
+        }
 
         self.certification = "CompTIA Security+"
 
