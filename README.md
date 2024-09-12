@@ -20,25 +20,25 @@ class AboutMe:
         self.certification = "CompTIA Security+"
 
         self.interets = {
-            "Cyber Security": [
-                "Threat Hunting",
-                "Penetration Testing",
-                "Incident Response",
-                "Cloud Security",
+            "Quantitative Finance": [
+                "Risk Technolog",
+                "Commodities Technology",
+                "Equity Technology",
+                "Fixed Income Technology",
+
             ]
             "Cloud Engineering": [
                 "AWS",
                 "Azure",
                 "GCP",
             ]
+            
             "Programming": [
                 "Python",
                 "Java",
             ]
             "Podcasts":[
-                "Cybersecurity Magazine Podcast",
-                "Cybersecurity Today",
-                "Hacker And The Fed",
+                "Fancy Quant",
             ]
         }
 
@@ -49,10 +49,9 @@ class AboutMe:
                 "Excellent communicator",
             ]
             "Technical": [
-                "Threat Detection",
-                "Malware Analysis",
+                "Python Data Visualization",
+                "Java Object Oriented Programminf",
                 "IT Security Policies & Procedures",
-                "Python & Java",
             ]
     
     def say_hello(self, name: str):
