@@ -21,7 +21,7 @@ class AboutMe:
 
         self.interets = {
             "Quantitative Finance": [
-                "Risk Technolog",
+                "Risk Technology",
                 "Commodities Technology",
                 "Equity Technology",
                 "Fixed Income Technology",
@@ -50,7 +50,7 @@ class AboutMe:
             ]
             "Technical": [
                 "Python Data Visualization",
-                "Java Object Oriented Programminf",
+                "Java Object Oriented Programming",
                 "IT Security Policies & Procedures",
             ]
     
