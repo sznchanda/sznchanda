@@ -9,22 +9,21 @@ class AboutMe:
 
         self.occupation = {
             "Cyber Security Apprentice @ Alstom"
-            "Former mathematics teacher @ MACSB"
+            "AI Technologist"
         }
 
         self.education = {
-            "B.A.Sc.(Hons) Digital Technologies @ YorkU" : Current
-            "B.Sc. Mathematics & Statistics @ UY1" : Graduated in 2020
+            "B.A.Sc.(Hons) Digital Technologies @ YorkU" 
+            "B.Sc. Mathematics & Statistics @ UY1" 
         }
 
         self.certification = "CompTIA Security+"
 
         self.interets = {
-            "Quantitative Finance": [
-                "Risk Technology",
-                "Commodities Technology",
-                "Equity Technology",
-                "Fixed Income Technology",
+            "Aritficial Intelligence": [
+                "Machine Learning",
+                "Deep Learning",
+                "LLMs",
 
             ]
             "Cloud Engineering": [
@@ -36,11 +35,8 @@ class AboutMe:
             "Programming": [
                 "Python",
                 "Java",
+                "C++"
             ]
-            "Podcasts":[
-                "Fancy Quant",
-            ]
-        }
 
         self.skills = {
             "Soft": [
@@ -49,9 +45,8 @@ class AboutMe:
                 "Excellent communicator",
             ]
             "Technical": [
-                "Python Data Visualization",
-                "Java Object Oriented Programming",
-                "IT Security Policies & Procedures",
+                "Vibe Coding"
+                "Prompt Engineering",
             ]
     
     def say_hello(self, name: str):
