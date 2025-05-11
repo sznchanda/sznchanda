@@ -17,8 +17,6 @@ class AboutMe:
             "B.Sc. Mathematics & Statistics @ UY1" 
         }
 
-        self.certification = "CompTIA Security+"
-
         self.interets = {
             "Aritficial Intelligence": [
                 "Machine Learning",
@@ -33,9 +31,7 @@ class AboutMe:
             ]
             
             "Programming": [
-                "Python",
-                "Java",
-                "C++"
+                "All existing programming languages"
             ]
 
         self.skills = {
