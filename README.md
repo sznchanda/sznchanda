@@ -8,7 +8,6 @@ class AboutMe:
         self.name = "Steeve Nchanda"
 
         self.occupation = {
-            "Cyber Security Apprentice @ Alstom"
             "AI Technologist"
         }
 
